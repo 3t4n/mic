@@ -1,7 +1,7 @@
 public class Frenos{
 
 	private boolean disco;
-
+	private boolean frenando;
 	public Frenos()
 	{
 		disco = true;
@@ -14,6 +14,10 @@ public class Frenos{
 
 	public void frenar()
 	{
-		this.disco=true;
+		this.frenando=true;
+	}
+	public void desfrenar()
+	{
+		this.frenando=true;
 	}
 }
