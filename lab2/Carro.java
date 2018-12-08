@@ -38,5 +38,9 @@ public class Carro{
 	{
 		this.frenos.frenar();
 	}
-
+	@Override
+	public String toString()
+	{
+		return "Vamo a conducir un " + this.nombre +  " modelo " + ano;
+	}
 }
