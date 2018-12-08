@@ -5,6 +5,7 @@ public class Frenos{
 	public Frenos()
 	{
 		disco = true;
+		frenando = false;
 	}
 	
 	public Frenos(boolean disco)
